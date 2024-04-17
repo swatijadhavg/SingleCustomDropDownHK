@@ -1,0 +1,40 @@
+li{
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .slds-dropdown_fluid {
+    min-width: 26rem;
+    max-width: 100%;
+    width: 100%;
+  }
+  .slds-dropdown_length-10 {
+    /* -webkit-overflow-scrolling: touch; */
+    /* max-height: 12.5rem; */
+     overflow-y: auto; 
+     overflow-x: auto; 
+    /* overflow-y: visible; */
+  }
+  /* .slds-dropdown {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    overflow-x: visible;
+    
+  } */
+  
+  /* ul
+  {
+    white-space: nowrap;
+    overflow-x: visible;
+    overflow-y: visible;
+  /* added width so it would work in the snippet */
+    /* width: 100px; 
+  }
+  li
+  {
+    display: block
+  /* } */
